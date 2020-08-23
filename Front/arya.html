@@ -1,0 +1,347 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+  <title>msa106groupproject</title>
+</head>
+<body class="is-preload">
+<div id="wrapper" class="fade-in"></div>
+  
+    <style>
+        header{
+            background: url(img/bg5.jpg);
+            background-size: cover;
+            background-position: center;
+             min-height: 800px;
+                }
+                @media screen and (max-width: 670px){
+                  header{
+                    min-height: 500px;
+                  }
+                }
+                .section{
+                  padding-top: 4vw;
+                  padding-bottom: 4vw;
+                }
+                .tabs .indicator{
+                  background-color: #1a237e;
+                }
+                .tabs .tab a:focus, .tabs .tab a:focus.active{
+                  background: transparent;
+                }
+    </style>
+   
+  <!-- navbar -->
+  <header>
+      <nav class="nav-wrapper transparent z-depth-0 hoverable">
+          <div class="container">
+               <a href="#" class="brand-logo">msa106</a>
+               <a href="#" class="sidenav-trigger" data-target="mobile-menu"><i class="material-icons">menu</i></a>
+         <ul class="right hide-on-med-and-down">
+             <li><a href="#">About</a></li>
+             <li><a href="#">Services</a></li>
+             <li><a href="#">Members</a></li>
+             <li><a href="#">Contact</a></li>
+         </ul>
+            </div>
+            <ul class="sidenav slategrey lighten-1" id="mobile-menu">
+             <li><a href="#">About</a></li>
+             <li><a href="#">Services</a></li>
+             <li><a href="#">Members</a></li>
+             <li><a href="#">Contact</a></li>
+            </ul>
+      </nav>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div id="intro">
+          <h1 class="center align white-text darken-text-6"><b>This is</b><br /><b>
+          AVPS</b></h1>
+          <h4 class="center align  white-text darken-text-6">A COMPANY RUN BY TORREN'S GEEKS</h4>
+          <div class="input-field center">
+              <button class="btn waves-effect waves-light btn">continue</button>
+          </div>
+        </div>
+  </header>
+
+  
+  <section class="section container">
+      
+      <div class="container center align">
+          <h2 class="grey-text text-darken-2">About Our Company</h2> 
+          <p>This is a project made msa106 students Paula,Stevanie, Vasko and Aryamann based on Microservices </p>
+          <p>showing some working Microservices and implementing some aspects like Saclibility, Resillience , Health Check and Logging</p>
+          <p>and this would not have been possible without the guidance of our proffesor Enrico Tam, thank you for teaching us Microservices Architecture</p>
+        </div>  
+    
+
+  </section>
+  
+  <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/img3.jfif" alt="" class="responsive-img">
+        </div>
+  </div>      
+        <!--services-->
+<section class="section container">
+      
+                <div class="container center align">
+                    <h2 class="grey-text text-darken-2">SERVICES WE PROVIDE</h2> 
+                </div>
+               <div class="row">
+                  <div class="col s12 l12">
+                      <ul class="tabs">
+                          <li class="tab s3">
+                              <a href="#m1" class="grey-text darken-2">Service-1</a>
+                          </li>
+                          <li class="tab s3">
+                                <a href="#m2" class="grey-text darken-2">Service-2</a>
+                            </li>
+                            <li class="tab s3">
+                                    <a href="#m3" class="grey-text darken-2">Service-3</a>
+                                </li>
+                                <li class="tab s3">
+                                  <a href="#m4" class="grey-text darken-2">log</a>
+                              </li>       
+                      </ul>
+                      <div class="col s12 " id="m1" >
+                           <p class="flow-text indigo-text-darken-4">Microservice-1</p>
+                            <p>The Submit Button will launch the Microservice 1 and the Start Stop Buttons start or stop the Microservice</p>
+                           <p></p>
+                           <div class="input-field center inline">
+                              <a href="http://3.129.90.119/price?me=1" id="download-button" class="btn waves-effect waves-light teal lighten-1">Submit</a>
+                            </div>
+                            <div class="input-field center inline">
+                              <a href="http://3.129.90.119/start1" id="download-button" class="btn waves-effect waves-light teal lighten-1">Start</a>
+                            </div>
+                             <div class="input-field center inline">
+                              <a href="http://3.129.90.119/stop1" id="download-button" class="btn waves-effect waves-light teal lighten-1">Stop</a>
+                            </div>
+                      </div>
+                      <div class="col s12" id="m2" >
+                            <p class="flow-text indigo-text-darken-4">Microservice-2</p>
+                            <p>The Submit Button will launch the Microservice 2 and the Start Stop Buttons start or stop the Microservice</p>
+                            <p></p>
+                            <div class="input-field center inline">
+                             <a href="http://3.129.90.119/price?me=2" id="download-button" class="btn waves-effect waves-light teal lighten-1">Submit</a>
+                                </div>
+                             <div class="input-field center inline">
+                              <a href="http://3.129.90.119/start2" id="download-button" class="btn waves-effect waves-light teal lighten-1">Start</a>
+                            </div>
+                             <div class="input-field center inline">
+                              <a href="http://3.129.90.119/stop2" id="download-button" class="btn waves-effect waves-light teal lighten-1">Stop</a>
+                            </div>
+                       </div>
+                       <div class="col s12" id="m3" >
+                            <p class="flow-text indigo-text-darken-4">Microservice-3</p>
+                            <p>The Submit Button will launch the Microservice 3</p>
+                            <p></p>
+                            <div class="input-field center inline">
+                            <a href="http://3.129.90.119/price?me=3" id="download-button" class="btn waves-effect waves-light teal lighten-1">Submit</a>
+                        </div>
+                                
+                       </div>
+                       <div class="col s12" id="m4" >
+                        <p class="flow-text indigo-text-darken-4">LOGS</p>
+                            <p>The Submit Button will launch the Logging Microservice</p>
+                            <p></p>
+                            <div class="input-field center inline">
+                            <a href="http://18.224.96.81/log/Getlogs" id="download-button" class="btn waves-effect waves-light teal lighten-1">Submit</a>
+                            </div>
+                  </div>
+               </div>
+              
+          
+            </section>
+  <div class="parallax-container">
+    <div class="parallax">
+        <img src="img/img1.jpg" class="responsive-img">
+        </div>
+  </div>
+
+  <section class="section container">
+  
+  <!--  <div class="container center">
+            <h2>MEMBERS</h2>
+       </div>
+      <div class="row">
+        <div class=" col s12 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/contact.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        
+        </div>
+        <div class=" col s12 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/contact.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        
+        </div>
+        <div class=" col s12 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/contact.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        
+        </div>
+        <div class=" col s12 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/contact.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        
+        </div>
+        
+       </div>-->
+       <div class="w3-container w3-padding-64 w3-center" id="team">
+        <h2>OUR TEAM</h2>
+        <br>
+        <br>
+        <h4>Meet The Team</h4>
+        
+        <div class="w3-row"><br>
+        
+        <div class="w3-quarter">
+          <img src="img/person.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+          <h4>ARYAMANN</h4>
+          <p>Frontend App</p>
+        </div>
+        
+        <div class="w3-quarter">
+          <img src="img/person.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+          <h4>PAULA</h4>
+          <p>Scalibility</p>
+        </div>
+        
+        <div class="w3-quarter">
+          <img src="img/person.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+          <h4>VASKO</h4>
+          <p>Backend App</p>
+        </div>
+        
+        <div class="w3-quarter">
+          <img src="img/person.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+          <h4>STEVANIE</h4>
+          <p>Resiliance and Composition</p>
+        </div>
+        
+        </div>
+        </div>    
+  </section>
+  <div class="parallax-container">
+    <div class="parallax">
+          <img src="img/img1.jpg" class="resposive-img">
+    </div>
+  </div>
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="row">
+    <div class="col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+      <p>Swing by for a cup of coffee, or whatever.</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Sydney, Australia</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +00 1515151515</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  aryamann.harry@gmail.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">      
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>I Like it!</label>
+      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+ 
+
+    <a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Instagram"> 
+      <i class="fab fa-instagram"></i></a>
+      <a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Facebook"> 
+        <i class="fab fa-facebook"></i></a>
+        <a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Twitter"> 
+          <i class="fab fa-twitter"></i></a>
+  <p>Made by ARYAMANN</p>
+
+ </footer>
+
+</div> 
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+     $('.sidenav').sidenav();
+     $('.tabs').tabs();
+     $('.parallax').parallax();
+    });
+  </script> 
+</body>
+</html>
