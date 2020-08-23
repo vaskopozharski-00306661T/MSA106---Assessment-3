@@ -1,0 +1,10 @@
+﻿1>------ Build started: Project: gateway, Configuration: Release Any CPU ------
+1>gateway -> C:\Users\vasko\Desktop\Assessment 2\Microservices\gateway\bin\Release\netcoreapp3.1\gateway.dll
+2>------ Publish started: Project: gateway, Configuration: Release Any CPU ------
+Connecting to C:\Users\vasko\Desktop\vasko...
+gateway -> C:\Users\vasko\Desktop\Assessment 2\Microservices\gateway\bin\Release\netcoreapp3.1\gateway.dll
+gateway -> C:\Users\vasko\Desktop\Assessment 2\Microservices\gateway\obj\Release\netcoreapp3.1\PubTmp\Out\
+Web App was published successfully file:///C:/Users/vasko/Desktop/vasko
+
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Publish: 1 succeeded, 0 failed, 0 skipped ==========
